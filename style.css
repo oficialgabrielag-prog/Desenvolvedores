@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Participa na comunidade Programadores & Desenvolvedores Angola.">
+    <title>Comunidade | DevAngola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="index.html" class="logo"><span>&lt;/&gt;</span> DevAngola</a>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="comunidade.html" class="active">Comunidade</a>
+    </nav>
+    <a class="header-button" href="https://chat.whatsapp.com/GSTERTDqdzpEEkRWiWVUCn?s=cl&p=a&iam=2" target="_blank" rel="noopener">Participar ↗</a>
+</header>
+
+<main>
+
+<section class="inner-hero">
+    <span class="tag">A NOSSA COMUNIDADE 🇦🇴</span>
+    <h1>O teu lugar no mundo da <span>tecnologia.</span></h1>
+    <p>
+        Não importa se estás a começar ou se já és desenvolvedor.
+        O importante é ter vontade de aprender e partilhar.
+    </p>
+</section>
+
+<section class="community-layout">
+
+    <div class="community-photo">
+        <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1100&auto=format&fit=crop" alt="Grupo de pessoas a trabalhar em equipa" loading="lazy">
+    </div>
+
+    <div class="community-content">
+        <span class="tag">🚨 CONVITE ABERTO!</span>
+        <h2>Programadores & Desenvolvedores Angola</h2>
+        <p>
+            Junta-te ao nosso grupo e faz parte de uma comunidade
+            que valoriza o conhecimento, a tecnologia e a colaboração.
+        </p>
+
+        <div class="benefit-list">
+            <div>✅ Partilha de conhecimentos e códigos</div>
+            <div>✅ Projetos, vagas e oportunidades</div>
+            <div>✅ Cursos e tutoriais gratuitos</div>
+            <div>✅ Comunidade de tecnologia</div>
+        </div>
+
+        <div class="goal-box">
+            <span>🎯 OBJETIVO DA COMUNIDADE</span>
+            <strong>200 membros</strong>
+            <p>Vamos atingir esta meta juntos!</p>
+        </div>
+
+        <a class="btn btn-blue full-button" href="https://chat.whatsapp.com/GSTERTDqdzpEEkRWiWVUCn?s=cl&p=a&iam=2" target="_blank" rel="noopener">
+            Entrar gratuitamente no WhatsApp ↗
+        </a>
+    </div>
+
+</section>
+
+<section class="section gallery-section">
+    <div class="section-heading">
+        <span class="tag">O QUE PODES PARTILHAR</span>
+        <h2>O teu conhecimento tem valor.</h2>
+    </div>
+
+    <div class="gallery-grid">
+        <article class="photo-card">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=900&auto=format&fit=crop" alt="Código de programação" loading="lazy">
+            <div class="photo-caption">
+                <span>CÓDIGOS</span>
+                <h3>Partilha aquilo que sabes.</h3>
+            </div>
+        </article>
+
+        <article class="photo-card">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=900&auto=format&fit=crop" alt="Equipa numa reunião tecnológica" loading="lazy">
+            <div class="photo-caption">
+                <span>PROJETOS</span>
+                <h3>Apresenta as tuas ideias.</h3>
+            </div>
+        </article>
+
+        <article class="photo-card">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900&auto=format&fit=crop" alt="Pessoa a estudar tecnologia" loading="lazy">
+            <div class="photo-caption">
+                <span>APRENDIZAGEM</span>
+                <h3>Ensina e aprende.</h3>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section class="invite-section">
+    <span>O TEU PRÓXIMO PASSO COMEÇA AQUI.</span>
+    <h2>Não fiques de fora!</h2>
+    <p>Partilha o convite com amigos, colegas e outros apaixonados por tecnologia.</p>
+    <a href="https://chat.whatsapp.com/GSTERTDqdzpEEkRWiWVUCn?s=cl&p=a&iam=2" target="_blank" rel="noopener" class="btn btn-white">Participar agora ↗</a>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="marquee">
+        <div class="marquee-track">
+            <div class="marquee-group">
+                <span>PROGRAMADORES</span><span>✦</span>
+                <span>DESENVOLVEDORES</span><span>✦</span>
+                <span>TECNOLOGIA ANGOLA 🇦🇴</span><span>✦</span>
+                <span>PARTILHAR CONHECIMENTO</span><span>✦</span>
+            </div>
+            <div class="marquee-group" aria-hidden="true">
+                <span>PROGRAMADORES</span><span>✦</span>
+                <span>DESENVOLVEDORES</span><span>✦</span>
+                <span>TECNOLOGIA ANGOLA 🇦🇴</span><span>✦</span>
+                <span>PARTILHAR CONHECIMENTO</span><span>✦</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer-main">
+        <div>
+            <a href="index.html" class="footer-logo">&lt;/&gt; DevAngola</a>
+            <p>Ideias que se transformam em tecnologia.</p>
+        </div>
+        <div class="footer-links">
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="comunidade.html">Comunidade</a>
+            <a href="https://chat.whatsapp.com/GSTERTDqdzpEEkRWiWVUCn?s=cl&p=a&iam=2" target="_blank" rel="noopener">WhatsApp ↗</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span>© 2026 DevAngola. Todos os direitos reservados.</span>
+        <span>Feito com 💙 em Angola 🇦🇴</span>
+    </div>
+</footer>
+
+</body>
+</html>
