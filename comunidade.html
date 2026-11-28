@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0759d6">
+  <title>Comunidade | DevAngola</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="top-marquee">
+  <div class="marquee-track">
+    <span>DEVANGOLA • PARTICIPA • PARTILHA • APRENDE • EVOLUI •</span>
+    <span>DEVANGOLA • PARTICIPA • PARTILHA • APRENDE • EVOLUI •</span>
+  </div>
+</div>
+
+<header class="header">
+  <a href="./index.html" class="logo">DEV<span>ANGOLA</span><small>PROGRAMADORES & DESENVOLVEDORES</small></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  <nav class="navigation" id="navigation">
+    <a href="./index.html">Início</a>
+    <a href="./sobre.html">Sobre nós</a>
+    <a class="active" href="./comunidade.html">Comunidade</a>
+    <a class="nav-cta" href="https://chat.whatsapp.com/GSTERTDqdzpEEkRWiWVUCn?s=cl&p=a&iam=2" target="_blank" rel="noopener">Participar ↗</a>
+  </nav>
+</header>
+
+<main>
+  <section class="community-hero">
+    <div>
+      <span class="eyebrow">A TUA COMUNIDADE TECNOLÓGICA</span>
+      <h1>O próximo passo da tua jornada começa <span>aqui.</span></h1>
+      <p>Entra num espaço onde podes fazer perguntas, apresentar projectos, trocar ideias e aprender com outras pessoas.</p>
+      <a href="https://chat.whatsapp.com/GSTERTDqdzpEEkRWiWVUCn?s=cl&p=a&iam=2" target="_blank" rel="noopener" class="btn btn-primary">Entrar no grupo WhatsApp ↗</a>
+    </div>
+    <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1100&q=85" alt="Pessoas reunidas a conversar e partilhar ideias">
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <span class="eyebrow">O QUE PODES FAZER</span>
+      <h2>Participa. Contribui. Evolui.</h2>
+      <p>Uma comunidade cresce quando cada membro contribui com alguma coisa.</p>
+    </div>
+
+    <div class="feature-grid">
+      <article class="simple-card">
+        <span>01</span>
+        <h3>Fazer perguntas</h3>
+        <p>Partilha as tuas dúvidas e aprende com as experiências de outros membros.</p>
+      </article>
+      <article class="simple-card">
+        <span>02</span>
+        <h3>Mostrar projectos</h3>
+        <p>Apresenta aquilo que estás a desenvolver e recebe opiniões construtivas.</p>
+      </article>
+      <article class="simple-card">
+        <span>03</span>
+        <h3>Partilhar oportunidades</h3>
+        <p>Divulga recursos, eventos, ferramentas e oportunidades relacionadas com tecnologia.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section rules-section">
+    <div>
+      <span class="eyebrow">A NOSSA CULTURA</span>
+      <h2>Uma boa comunidade começa pelo respeito.</h2>
+      <p>Queremos um ambiente produtivo, acolhedor e aberto a diferentes níveis de experiência.</p>
+    </div>
+    <div class="rules-list">
+      <div><span>✓</span> Respeita todos os membros.</div>
+      <div><span>✓</span> Faz perguntas e partilha conhecimento.</div>
+      <div><span>✓</span> Evita spam e conteúdos sem relação com a comunidade.</div>
+      <div><span>✓</span> Ajuda quem está a começar.</div>
+      <div><span>✓</span> Valoriza opiniões diferentes.</div>
+    </div>
+  </section>
+
+  <section class="wide-banner">
+    <div>
+      <span class="eyebrow light-eyebrow">ESTAMOS À TUA ESPERA</span>
+      <h2>Não fiques apenas a observar.<br>Vem construir connosco.</h2>
+    </div>
+    <a href="https://chat.whatsapp.com/GSTERTDqdzpEEkRWiWVUCn?s=cl&p=a&iam=2" target="_blank" rel="noopener" class="btn btn-white">Participar agora ↗</a>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="bottom-marquee">
+    <div class="marquee-track">
+      <span>APRENDER • PARTILHAR • COLABORAR • EVOLUIR •</span>
+      <span>APRENDER • PARTILHAR • COLABORAR • EVOLUIR •</span>
+    </div>
+  </div>
+  <div class="footer-main">
+    <div class="footer-brand"><a href="./index.html" class="logo footer-logo">DEV<span>ANGOLA</span></a><p>Conectando pessoas através da tecnologia e do conhecimento.</p></div>
+    <div class="footer-links">
+      <a href="./index.html">Início</a><a href="./sobre.html">Sobre nós</a><a href="./comunidade.html">Comunidade</a>
+      <a href="https://chat.whatsapp.com/GSTERTDqdzpEEkRWiWVUCn?s=cl&p=a&iam=2" target="_blank" rel="noopener">WhatsApp ↗</a>
+    </div>
+  </div>
+  <div class="footer-bottom"><span>© 2026 DevAngola. Todos os direitos reservados.</span><span>Feito para quem constrói o futuro digital.</span></div>
+</footer>
+
+<script>
+const menuToggle = document.getElementById("menuToggle");
+const navigation = document.getElementById("navigation");
+menuToggle.addEventListener("click", () => {
+  const isOpen = navigation.classList.toggle("show");
+  menuToggle.setAttribute("aria-expanded", isOpen);
+  menuToggle.textContent = isOpen ? "✕" : "☰";
+});
+navigation.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+  navigation.classList.remove("show");
+  menuToggle.setAttribute("aria-expanded", "false");
+  menuToggle.textContent = "☰";
+}));
+</script>
+</body>
+</html>
