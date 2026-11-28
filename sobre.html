@@ -4,75 +4,100 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0759d6">
   <title>Sobre nós | DevAngola</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
+<div class="top-marquee">
+  <div class="marquee-track">
+    <span>DEVANGOLA • TECNOLOGIA • CONHECIMENTO • COMUNIDADE •</span>
+    <span>DEVANGOLA • TECNOLOGIA • CONHECIMENTO • COMUNIDADE •</span>
+  </div>
+</div>
+
 <header class="header">
-  <a href="index.html" class="logo">DEV<span>ANGOLA</span></a>
-  <button class="menu-toggle" onclick="toggleMenu()" aria-label="Abrir menu">☰</button>
-  <nav id="navigation">
-    <a href="index.html">Início</a>
-    <a class="active" href="sobre.html">Sobre nós</a>
-    <a href="comunidade.html">Comunidade</a>
-    <a class="nav-button" href="https://chat.whatsapp.com/GSTERTDqdzpEEkRWiWVUCn?s=cl&p=a&iam=2" target="_blank">Participar ↗</a>
+  <a href="./index.html" class="logo">DEV<span>ANGOLA</span><small>PROGRAMADORES & DESENVOLVEDORES</small></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  <nav class="navigation" id="navigation">
+    <a href="./index.html">Início</a>
+    <a class="active" href="./sobre.html">Sobre nós</a>
+    <a href="./comunidade.html">Comunidade</a>
+    <a class="nav-cta" href="https://chat.whatsapp.com/GSTERTDqdzpEEkRWiWVUCn?s=cl&p=a&iam=2" target="_blank" rel="noopener">Participar ↗</a>
   </nav>
 </header>
 
 <main>
-<section class="page-hero">
-  <span class="eyebrow">QUEM SOMOS</span>
-  <h1>Uma comunidade.<br><span>Mil possibilidades.</span></h1>
-  <p>Somos um espaço de encontro para pessoas que acreditam no poder da tecnologia, da aprendizagem e da colaboração.</p>
-</section>
+  <section class="page-hero">
+    <span class="eyebrow">QUEM SOMOS</span>
+    <h1>Uma comunidade.<br><span>Mil possibilidades.</span></h1>
+    <p>Um espaço de encontro para pessoas que acreditam no poder da tecnologia, da aprendizagem e da colaboração.</p>
+  </section>
 
-<section class="section about-layout">
-  <div>
-    <span class="eyebrow">A NOSSA HISTÓRIA</span>
-    <h2>O conhecimento não deve ficar isolado.</h2>
-    <p>O mundo da tecnologia está em constante evolução. Todos os dias surgem novas ferramentas, linguagens e oportunidades. Mas crescer neste universo pode ser mais fácil quando existe uma comunidade para trocar experiências.</p>
-    <p>É com essa ideia que nasce Programadores & Desenvolvedores: um espaço para aproximar pessoas, incentivar a aprendizagem e criar ligações entre apaixonados pelo desenvolvimento tecnológico.</p>
-  </div>
-  <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&q=85" alt="Pessoas a trabalhar em equipa">
-</section>
+  <section class="section about-layout">
+    <div>
+      <span class="eyebrow">A NOSSA HISTÓRIA</span>
+      <h2>O conhecimento não deve ficar isolado.</h2>
+      <p>O mundo da tecnologia está em constante evolução. Todos os dias surgem novas ferramentas, linguagens e oportunidades. Mas crescer neste universo pode ser mais fácil quando existe uma comunidade para trocar experiências.</p>
+      <p>É com essa ideia que nasce Programadores & Desenvolvedores: um espaço para aproximar pessoas, incentivar a aprendizagem e criar ligações entre apaixonados pelo desenvolvimento tecnológico.</p>
+    </div>
+    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1100&q=85" alt="Equipa reunida a trabalhar">
+  </section>
 
-<section class="section values-section">
-  <div class="section-heading">
-    <span class="eyebrow">OS NOSSOS PRINCÍPIOS</span>
-    <h2>O que nos move.</h2>
-  </div>
-  <div class="values-grid">
-    <article><span>01</span><h3>Partilha</h3><p>O conhecimento torna-se mais valioso quando chega a outras pessoas.</p></article>
-    <article><span>02</span><h3>Respeito</h3><p>Cada pessoa tem o seu ritmo, experiência e maneira de aprender.</p></article>
-    <article><span>03</span><h3>Inovação</h3><p>Incentivamos a criatividade, a curiosidade e a construção de soluções.</p></article>
-    <article><span>04</span><h3>Colaboração</h3><p>Grandes ideias podem nascer de conversas e esforços partilhados.</p></article>
-  </div>
-</section>
+  <section class="section values-section">
+    <div class="section-heading">
+      <span class="eyebrow">OS NOSSOS PRINCÍPIOS</span>
+      <h2>O que nos move.</h2>
+      <p>Queremos construir um ambiente onde todos possam aprender, contribuir e evoluir.</p>
+    </div>
+    <div class="values-grid">
+      <article><span>01</span><h3>Partilha</h3><p>O conhecimento torna-se mais valioso quando chega a outras pessoas.</p></article>
+      <article><span>02</span><h3>Respeito</h3><p>Cada pessoa tem o seu ritmo, experiência e maneira de aprender.</p></article>
+      <article><span>03</span><h3>Inovação</h3><p>Incentivamos a criatividade, a curiosidade e a construção de soluções.</p></article>
+      <article><span>04</span><h3>Colaboração</h3><p>Grandes ideias podem nascer de conversas e esforços partilhados.</p></article>
+    </div>
+  </section>
 
-<section class="banner">
-  <div><span class="eyebrow">FAZ PARTE DESTA IDEIA</span><h2>O teu conhecimento também tem lugar aqui.</h2></div>
-  <a class="button white" href="comunidade.html">Entrar na comunidade →</a>
-</section>
+  <section class="wide-banner">
+    <div>
+      <span class="eyebrow light-eyebrow">FAZ PARTE DESTA IDEIA</span>
+      <h2>O teu conhecimento também tem lugar aqui.</h2>
+    </div>
+    <a href="./comunidade.html" class="btn btn-white">Conhecer a comunidade →</a>
+  </section>
 </main>
 
 <footer class="footer">
-  <div class="footer-marquee"><div>IDEIAS • CÓDIGO • TECNOLOGIA • COMUNIDADE • IDEIAS • CÓDIGO • TECNOLOGIA • COMUNIDADE •</div></div>
+  <div class="bottom-marquee">
+    <div class="marquee-track">
+      <span>IDEIAS • CÓDIGO • TECNOLOGIA • COMUNIDADE •</span>
+      <span>IDEIAS • CÓDIGO • TECNOLOGIA • COMUNIDADE •</span>
+    </div>
+  </div>
   <div class="footer-main">
-    <div><a class="logo footer-logo" href="index.html">DEV<span>ANGOLA</span></a><p>Conectando pessoas através da tecnologia e do conhecimento.</p></div>
-    <div class="footer-links"><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="comunidade.html">Comunidade</a><a href="https://chat.whatsapp.com/GSTERTDqdzpEEkRWiWVUCn?s=cl&p=a&iam=2" target="_blank">WhatsApp ↗</a></div>
+    <div class="footer-brand"><a href="./index.html" class="logo footer-logo">DEV<span>ANGOLA</span></a><p>Conectando pessoas através da tecnologia e do conhecimento.</p></div>
+    <div class="footer-links">
+      <a href="./index.html">Início</a><a href="./sobre.html">Sobre nós</a><a href="./comunidade.html">Comunidade</a>
+      <a href="https://chat.whatsapp.com/GSTERTDqdzpEEkRWiWVUCn?s=cl&p=a&iam=2" target="_blank" rel="noopener">WhatsApp ↗</a>
+    </div>
   </div>
   <div class="footer-bottom"><span>© 2026 DevAngola. Todos os direitos reservados.</span><span>Feito para quem constrói o futuro digital.</span></div>
 </footer>
 
 <script>
-function toggleMenu() {
-  document.getElementById("navigation").classList.toggle("show");
-}
-document.querySelectorAll("#navigation a").forEach(link => {
-  link.addEventListener("click", () => document.getElementById("navigation").classList.remove("show"));
+const menuToggle = document.getElementById("menuToggle");
+const navigation = document.getElementById("navigation");
+menuToggle.addEventListener("click", () => {
+  const isOpen = navigation.classList.toggle("show");
+  menuToggle.setAttribute("aria-expanded", isOpen);
+  menuToggle.textContent = isOpen ? "✕" : "☰";
 });
+navigation.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+  navigation.classList.remove("show");
+  menuToggle.setAttribute("aria-expanded", "false");
+  menuToggle.textContent = "☰";
+}));
 </script>
 </body>
 </html>
